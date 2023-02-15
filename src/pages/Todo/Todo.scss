@@ -1,0 +1,197 @@
+.todo {
+  background-color: #ddd;
+  height: 100vh;
+  .container {
+    .form-row {
+      .card {
+        .card-body {
+          .todo-form {
+            form {
+              input {
+              }
+              button {
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .content {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .box1 {
+        border-radius: 10px;
+        width: 33%;
+        display: flex;
+        background-color: red;
+        padding: 25px 0px;
+
+        .list-all {
+          width: 100%;
+          padding: 0px 20px;
+          h5 {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            font-weight: 800;
+          }
+          .box-item {
+            ul {
+              li {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                justify-content: space-between;
+
+                .list-info {
+                  display: flex;
+                  align-items: center;
+
+                  span {
+                    color: black;
+                    margin-right: 7px;
+                  }
+                  p {
+                    margin: 0;
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding-right: 5px;
+                  }
+                }
+                .list-btn {
+                  button {
+                    background: none;
+                    border: none;
+                    color: black;
+                    transition: 0.3s;
+                    &:hover {
+                      color: #a9a5a5;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .box2 {
+        border-radius: 10px;
+        width: 33%;
+        display: flex;
+        background-color: blue;
+        padding: 25px 0px;
+
+        .list-all {
+          width: 100%;
+          padding: 0px 20px;
+          h5 {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            font-weight: 800;
+          }
+          .box-item {
+            ul {
+              li {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                justify-content: space-between;
+
+                .list-info {
+                  display: flex;
+                  align-items: center;
+
+                  span {
+                    color: black;
+                    margin-right: 7px;
+                  }
+                  p {
+                    margin: 0;
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding-right: 5px;
+                  }
+                }
+                .list-btn {
+                  button {
+                    background: none;
+                    border: none;
+                    color: black;
+                    transition: 0.3s;
+                    &:hover {
+                      color: #a9a5a5;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .box3 {
+        border-radius: 10px;
+        width: 33%;
+        display: flex;
+        background-color: green;
+        padding: 25px 0px;
+
+        .list-all {
+          width: 100%;
+          padding: 0px 20px;
+          h5 {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            font-weight: 800;
+          }
+          .box-item {
+            ul {
+              li {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                justify-content: space-between;
+
+                .list-info {
+                  display: flex;
+                  align-items: center;
+
+                  span {
+                    color: black;
+                    margin-right: 7px;
+                  }
+                  p {
+                    margin: 0;
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding-right: 5px;
+                  }
+                }
+                .list-btn {
+                  button {
+                    background: none;
+                    border: none;
+                    color: black;
+                    transition: 0.3s;
+                    &:hover {
+                      color: #a9a5a5;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
